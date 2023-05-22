@@ -9,7 +9,7 @@ public class GRPCClient {
 
  public static void main(String[] args){
 
-     ManagedChannel channel = ManagedChannelBuilder.forAddress("localhost", 9091).usePlaintext().build();
+     ManagedChannel channel = ManagedChannelBuilder.forAddress("grpc-app-grpc-project.apps.lab.tayana.in", 50051).usePlaintext().build();
 
      //stub from proto file
 
